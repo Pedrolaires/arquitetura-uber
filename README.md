@@ -1,7 +1,7 @@
 ## Um pouco da história
 
 
-    A ideia da Uber foi concebida por Travis Kalanick e Garrett Camp. Eles fundaram a empresa em 2009 em São Francisco, nos Estados Unidos, inicialmente como um serviço de limusine para o mercado de elite. Desde então, a empresa se expandiu rapidamente para se tornar uma das maiores empresas de transporte do mundo.
+A ideia da Uber foi concebida por Travis Kalanick e Garrett Camp. Eles fundaram a empresa em 2009 em São Francisco, nos Estados Unidos, inicialmente como um serviço de limusine para o mercado de elite. Desde então, a empresa se expandiu rapidamente para se tornar uma das maiores empresas de transporte do mundo.
 
 Assim, a Uber foi lançada em São Francisco em 2010 como um serviço de compartilhamento de caronas. Com o tempo, a empresa se expandiu para outras cidades dos Estados Unidos e, posteriormente, para o resto do mundo, tornando-se uma das maiores empresas de transporte do mundo.
 
