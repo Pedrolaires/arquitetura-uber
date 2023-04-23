@@ -60,7 +60,7 @@ Com os números crescendo absurdamente, em 2014 o time decidiu transformar o mon
 
 
 
->![Arquitetura em alto nível Uber](/images/Arquitetura%20de%20alto%20nível%20Uber.png)
+>![Arquitetura em alto nível Uber](/images/Arquitetura_alto_nivel_Uber.png)
 *Arquitetura a partir de 2014*
 
 
