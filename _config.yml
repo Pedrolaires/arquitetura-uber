@@ -2,8 +2,8 @@ remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: Arquitetura do Uber
-description: Template trabalho Arquitetura de software
+title: Uber: Por trás do app
+description: Uma pesquisa relacionada a arquitetura que envolve o software da Uber
 
 #@import "{{ site.theme }}";
 #https://github.com/pages-themes/hacker
