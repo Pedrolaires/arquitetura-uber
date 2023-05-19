@@ -12,7 +12,8 @@ Assim, a Uber foi lançada em São Francisco em 2010 como um serviço de compart
 
 ## Sobre o aplicativo
 
-O aplicativo permite ao passageiro solicitar corridas, e para isso busca sua localização e destino, método de pagamento e provê um sistema de avaliação de motoristas e usuários.
+O aplicativo permite ao passageiro solicitar corridas, e para isso busca sua localização e destino, método de pagamento e provê um sistema de avaliação de motoristas e usuários. Ele permite que usuários solicitem o serviço do motorista de onde estiverem e a proposta é que o carro chegue em minutos. Para atingir esse alvo, ele precisa ser capaz de processar solicitações em tempo real, ter previsões de trajeto precisas, integração com outras plataformas e ter uma experiência de usuário fluida e rápida. Além disso, ele deve ser confiável, seguro e ter uma interface acessível. Uma outra preocupação importante é a escalabilidade já que a Uber oferece o serviço para milhões de usuários em todo mundo e necessita se adaptar a diferentes regras e peculiaridades de cada mercado.
+
 
 - Sistema de pagamentos:
 > O sistema de pagamentos administra todos as transações entre passageiro e motorista. A segurança é crítica, sendo prezada a todo custo.
@@ -40,7 +41,6 @@ ___
 Em suma, com toda essa infraestrutura apresentada já podemos saber que sua arquitetura deve ser extremamente escalável e distribuída pois requer o uso de diversastecnologias para garantir o bom funcionamento da aplicação
 
 ___
-
 
 ## A arquitetura
 
