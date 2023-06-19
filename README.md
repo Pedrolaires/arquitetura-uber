@@ -71,14 +71,14 @@ Com os números crescendo absurdamente, em 2014 o time decidiu transformar o mon
 
   A vantagem que esse sistema criou para o Uber foi imensa. Sua escalabilidade é consistente pois é construído em NodeJS, que lida muito bem com eventos assíncronos.
 
+- ### ARM64 
+
+  A Uber decidiu utilizar o ARM64, uma arquitetura de processador de 64 bits amplamente utilizada em dispositivos móveis e data centers, para avaliar os benefícios em termos de economia de custos, consumo de energia e desempenho de computação. Inicialmente, consideraram criar suporte básico em uma zona isolada para experimentação, mas logo perceberam a importância de oferecer suporte completo ao ARM64 em sua infraestrutura principal. Isso permitiria reduzir os custos de computação, aumentar a diversidade de capacidade e modernizar a plataforma da Uber.
+
+  Para alcançar seus objetivos, a Uber utilizou ferramentas como "zig cc" para compilar binários ARM64 e considerou o Zig como uma alternativa interessante para o desenvolvimento nessa arquitetura. A empresa enfrentou desafios técnicos ao habilitar o suporte completo para o ARM64 em sua infraestrutura central, mas buscou diversificar sua capacidade e reduzir os custos de computação por meio dessa adoção.
+
 ___
-## ARM64 na arquitetura da Uber
 
-A Uber decidiu utilizar o ARM64, uma arquitetura de processador de 64 bits amplamente utilizada em dispositivos móveis e data centers, para avaliar os benefícios em termos de economia de custos, consumo de energia e desempenho de computação. Inicialmente, consideraram criar suporte básico em uma zona isolada para experimentação, mas logo perceberam a importância de oferecer suporte completo ao ARM64 em sua infraestrutura principal. Isso permitiria reduzir os custos de computação, aumentar a diversidade de capacidade e modernizar a plataforma da Uber.
-
-Para alcançar seus objetivos, a Uber utilizou ferramentas como "zig cc" para compilar binários ARM64 e considerou o Zig como uma alternativa interessante para o desenvolvimento nessa arquitetura. A empresa enfrentou desafios técnicos ao habilitar o suporte completo para o ARM64 em sua infraestrutura central, mas buscou diversificar sua capacidade e reduzir os custos de computação por meio dessa adoção.
-
-___
   
 
 
