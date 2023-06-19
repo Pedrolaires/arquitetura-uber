@@ -109,7 +109,9 @@ Alem disso, para os microsservicos o Uber utiliza as seguintes ferramentas:
 A Uber lida com um grande volume de dados incluindo informações sensíveis. Então para garantir a segurança, realizar o gerenciamento e a análise de dados é utilizado essa abordagem. 
 
 **Geração 1**: construída em Hadoop e Hive. Essa plataforma era capaz de processar grandes quantidades de dados, mas não era muito escalável.
+
 **Geração 2**: construída no Spark. Essa plataforma era mais escalável que a plataforma de primeira geração, mas ainda não era capaz de processar dados em tempo real.
+
 **Geração 3**: construída no Apache Hudi. Esta plataforma é capaz de processar dados em tempo real, sendo também mais escalável do que as plataformas anteriores.
 
 ## Computação em nuvem
