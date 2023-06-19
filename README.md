@@ -80,10 +80,53 @@ Com os números crescendo absurdamente, em 2014 o time decidiu transformar o mon
 ___
 
   
+## Microsservicos
+
+Para o sistema da uber esse padrão arquitetural é fundamental pois garante flexibilidade e eficiência na implementação e manutenção do sistema. Além da escalabilidade, que possibilita o suporte para um grande volume de usuários e solicitações simultâneas de viagens. 
+
+Entretanto, não basta apenas adotar esse padrão, também é necessário adaptá-lo, para o Uber. Em 2018 o Uber utilizava esse modelo, mas, ainda existiam muitos impecilhos. Por exemplo, os engenheiros precisavam trabalhar em cerca de 50 serviços em 12 equipes diferentes para investigar a causa raiz de um problema.
+
+![image](https://github.com/Pedrolaires/arquitetura-uber/assets/62162700/c2dc3c9e-abb5-41b0-9fff-5a96e477c119)
+*Um exemplo de fluxo complexo no Uber por volta de 2018, que exigia 10 pontos de contato para uma integração simples antes do DOMA.*
+
+Para resolver esse problema, foi adotado a metodologia DOMA (Arquitetura de Microsserviços Orientada a Domínio), que possue os seguintes principios:
+
+* Design orientado a domínio: os microsserviços são projetados em torno do domínio de negócios, em vez da pilha de tecnologia.
+* Coesão: Cada microsserviço deve ter uma responsabilidade única e bem definida.
+* Evite o acoplamento: os microsserviços devem ser acoplados livremente, para que possam ser desenvolvidos e implantados de forma independente.
+* Use um barramento de serviço: um barramento de serviço é usado para desacoplar microsserviços e facilitar a comunicação entre eles.
+
+Alem disso, para os microsservicos o Uber utiliza as seguintes ferramentas: 
+
+**Contêineres**: o Uber usa o Docker para empacotar e implantar seus microsserviços em contêineres. Os contêineres são leves e portáteis, o que facilita a implantação de microsserviços em diferentes ambientes.
+**Kubernetes**: o Uber usa o Kubernetes para gerenciar seus microsserviços. O Kubernetes é uma plataforma de orquestração de contêineres que pode dimensionar e gerenciar microsserviços automaticamente.
+**ELK Stack**: Uber usa o ELK Stack para monitorar seus microsserviços. O ELK Stack é um conjunto de software de código aberto que pode coletar, armazenar e analisar logs e eventos.
+**Jaeger**: Uber usa Jaeger para rastrear solicitações entre seus microsserviços. Jaeger é uma plataforma de rastreamento distribuído que pode ajudar a identificar gargalos e erros de desempenho.
+**Crisp**: o Uber usa o Crisp para analisar o caminho crítico de seus microsserviços. O Crisp é uma ferramenta que pode ajudar a identificar as tarefas mais importantes em um microsserviço, para que os desenvolvedores possam concentrar seus esforços em melhorar essas tarefas.
+
+## Big Data
+
+A Uber lida com um grande volume de dados incluindo informações sensíveis. Então para garantir a segurança, realizar o gerenciamento e a análise de dados é utilizado essa abordagem. 
+
+**Geração 1**: construída em Hadoop e Hive. Essa plataforma era capaz de processar grandes quantidades de dados, mas não era muito escalável.
+**Geração 2**: construída no Spark. Essa plataforma era mais escalável que a plataforma de primeira geração, mas ainda não era capaz de processar dados em tempo real.
+**Geração 3**: construída no Apache Hudi. Esta plataforma é capaz de processar dados em tempo real, sendo também mais escalável do que as plataformas anteriores.
+
+## Computação em nuvem
+
+A Uber usa uma variedade de serviços de computação em nuvem para dar suporte às suas operações. Esses serviços incluem:
+
+* Computação: a Uber usa serviços de computação baseados em nuvem para executar seus aplicativos e sites. Isso permite que a Uber aumente ou diminua sua infraestrutura conforme necessário, sem ter que investir e manter seu próprio hardware.
+* Armazenamento: a Uber usa serviços de armazenamento baseados em nuvem para armazenar seus dados. Isso permite que a Uber acesse seus dados de qualquer lugar e dimensione sua capacidade de armazenamento conforme necessário.
+* Rede: a Uber usa serviços de rede baseados em nuvem para conectar seus aplicativos e dados. Isso permite que a Uber crie uma rede segura e confiável para seus usuários.
 
 
 ## Fontes utilizadas:
 
 - https://www.geeksforgeeks.org/system-design-of-uber-app-uber-system-architecture/
+- https://www.uber.com/blog/engineering/
 - https://www.techaheadcorp.com/blog/uber-architecture-design/
 - https://www.uber.com/en-BR/blog/bootstrapping-ubers-infrastructure-on-arm64-with-zig/
+- https://www.uber.com/blog/uber-big-data-platform/
+- https://www.uber.com/blog/microservice-architecture/
+- "Matt Ranney: Microservices at Uber" - Software Engineering Daily, Podcast
